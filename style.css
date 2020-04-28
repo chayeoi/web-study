@@ -164,6 +164,17 @@ body {
   margin-bottom: 8px;
 }
 
+.main {
+  margin-top: 43px;
+  padding: 0 10px;
+  background-color: gold;
+}
+
+.main__hero {
+  height: 154px;
+  background: #fefefe url('images/hero.jpeg') center / 768px auto no-repeat;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
   .header {
@@ -204,5 +215,22 @@ body {
 
   .header__menu-item:not(:last-child) {
     margin-bottom: 0;
+  }
+
+  .main {
+    margin-top: 204px;
+  }
+
+  .main__hero {
+    height: 256px;
+    background-size: 960px auto;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 960px) {
+  .main__hero {
+    height: 368px;
+    background-size: cover;
   }
 }
