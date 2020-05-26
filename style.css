@@ -146,7 +146,7 @@ body {
   transform: translateX(-100%);
   opacity: 0;
   background-color: #fff;
-  transition: transform 0.2s;
+  transition: transform 0.2s, opacity 0.5s;
 }
 
 .header__nav.active {
